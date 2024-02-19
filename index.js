@@ -56,7 +56,7 @@ function cvDownload(){
     
     $("#downloadButton").click(function (){
     
-        var fileURL = "/home/Resume/Atharva_Todkary_Resume.pdf";
+        var fileURL = "./Resume/Atharva_Todkary_Resume.pdf";
     
         var link = $('<a>',{
             href : fileURL,
